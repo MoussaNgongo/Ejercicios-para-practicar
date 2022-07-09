@@ -1,3 +1,5 @@
+//Programa que pide 2 números y que nos dice cual es el mayor, el menor y si son iguales
+//Si se introduce un numero negativo o un caracter no numerico, se vuelven a pedir los numeros
 
 let valor3 = "No has metido un numero";
 
@@ -24,5 +26,5 @@ while (valor3 == "No has metido un numero") {
 
 
 
-document.getElementById("marico").innerText = valor3;
+document.getElementById("p1").innerText = valor3;
 console.log(valor1 * valor2);
